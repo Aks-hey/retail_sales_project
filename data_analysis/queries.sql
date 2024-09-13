@@ -56,7 +56,7 @@ ORDER BY gender;
 
 /* 7. Query to calculate the average sale for each month. Find out best selling month in each year */
 
-SELECT * FROM retail_sales;
+
 
 WITH avg_best_month AS(
 SELECT 
