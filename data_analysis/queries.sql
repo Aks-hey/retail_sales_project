@@ -29,7 +29,6 @@ ORDER BY total_sales DESC;
 
 /* 4. Query to find the average age of customers who purchased items from the 'Beauty' Category */
 
-SELECT * FROM retail_sales LIMIT 5;
 
 SELECT
     ROUND(AVG(age)) AS avg_age
@@ -55,7 +54,6 @@ GROUP BY category, gender
 ORDER BY gender;
 
 /* 7. Query to calculate the average sale for each month. Find out best selling month in each year */
-
 
 
 WITH avg_best_month AS(
@@ -95,8 +93,6 @@ GROUP BY category;
 
 
 /* 10. Query to create each shift and number of orders (i.e morning <= 12, noon between 12 & 17, eve > 17). */
-
-SELECT * FROM retail_sales LIMIT 5;
 
 
 SELECT 
